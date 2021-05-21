@@ -11,7 +11,8 @@ const MyProfile = ({ navigation }) => {
 
 
     console.log(user);
-
+    console.log('User is in My profile')
+    
     useStatusBar('dark-content');
     async function handleSignOut() {
         try {
